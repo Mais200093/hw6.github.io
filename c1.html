@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .main{
+        background-image: url(laptop-5673901_640.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+    .form{
+        background-color: rgba(255, 255, 255, 0.6);
+        width: 350px;
+        text-align: center;
+        margin: auto;
+        margin-top: 200px;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.642);
+    }
+    h2{
+        margin: 30px 0;
+    }
+    .form div{
+        margin: 10px 0;
+    }
+    .input{
+        padding: 20px;
+    }
+    input[type="text"],input[type="password"]{
+        padding: 5px 10px;
+       
+        border: none;
+        border-bottom: 1px solid black;
+        width: 80%;
+      outline: none;
+
+    }
+
+    input[type='submit']{
+        width: 80%;
+        background-color: green;
+        color:white;
+        padding: 7px 20px ;
+        border: none;
+        cursor: pointer;
+    }
+
+.footer{
+    font-size: 12px;
+}
+.footer a{
+    margin: 0 16px;
+}
+
+
+input[type="text"]:focus,input[type="password"]:focus{
+    background-color: lightgreen;
+}
+
+   
+.m1{
+    text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+    <div></div>
+    <div class="main">
+        <form class="form">
+            <h2>Account Login</h2>
+            <div><input type="text" placeholder="User Name"></div>
+            <div><input type="password" placeholder="Password"></div>
+            <div><input type="submit"></div>
+
+            <div class="footer">
+                <input type="checkbox">
+                <label>remember me</label>
+                <a class="m1" href="#">Forgot Password ?</a>
+
+            </div>
+        </form>
+
+    </div>
